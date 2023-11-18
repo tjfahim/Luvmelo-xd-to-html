@@ -115,7 +115,6 @@
             
                 <!-- Avatar -->
                 <div class=" mr-5 ml-3">
-         
                     <img
                     src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                     class="rounded-circle"
@@ -133,10 +132,10 @@
   </header>
 
   <main>
-    <div class="custom-name-color">
+    <div class="custom-name-color pt-3 overview-text" >
       Overview
     </div>
-    <div class="row home-main-section">
+    <div class="row home-main-section pb-3">
       <div class="col-md-7 home-first-section">
         <div class="row home-first-sectio-row bgw-br15">
           <div class="col-md-2">
@@ -151,7 +150,7 @@
             <img src="assets/image/Clip.png" class="home-main-section-img" alt="">
           </div>
         </div>
-        <div class="row home-first-section-second-row">
+        <div class="row home-first-section-second-row pb-4">
           <div class="col-md-5 pt-4 pl-3">
             <a href="" class="custom-name-color h6 client_list_link">Client List</a>
             <p class="custom-paragraph-color display-6">Click a client to edit information</p>
@@ -202,7 +201,7 @@
               <div class="col-md-4 p-2">
                 <img src="assets/image/Mask.png" alt="">
               </div>
-              <div class="col-md-7 p-2  ml-3 ">
+              <div class="col-md-7 p-2  ml-3  ">
                 <small class="">H. Mansfield</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="mt-3">
@@ -244,13 +243,12 @@
           </div>
         </div>
       </div>
-      <div class="col-md-5 home-right-section ml-4 p-4">
-        <div class="row">
+      <div class="col-md-5 ">
+        <div class="row home-right-section   ml-4 p-4">
           <div class="col-md-11">Employee List (12)</div>
           
-          <div class="col-md-1">
+          <div class="col-md-1 dropdown">
               <!-- Avatar -->
-              <div class="dropdown">
               <a
                   class="dropdown-toggle d-flex align-items-center hidden-arrow"
                   href="#"
@@ -266,78 +264,115 @@
                   />
               </a>
               <ul
-                  class="dropdown-menu dropdown-menu-end bg-dark"
+                  class="dropdown-menu dropdown-menu-end bg-dark py-3"
                   aria-labelledby="navbarDropdownMenuAvatar"
               >
                   <li>
-                  <a class="dropdown-item text-white" href="#">Start Time</a>
+                  <a class="dropdown-item text-white pl-5" href="#">Start Time</a>
                   </li>
                   <li>
-                  <a class="dropdown-item" href="#">Name</a>
+                  <a class="dropdown-item text-white pl-5" href="#">Name</a>
                   </li>
                   <li>
                   <a class="dropdown-item" href="#">
-                    <span><img src="assets/image/Component_icon_ic_Ch.png" alt=""></span>Slots</a>
+                    <span><img src="assets/image/Component_icon_ic_Ch.png" alt=""></span> <span class="text-white pl-3">Slots</span></a>
                   </li>
                   <li>
-                  <a class="dropdown-item" href="#">New to Old</a>
+                  <a class="dropdown-item text-white pl-5" href="#">New to Old</a>
                   </li>
               </ul>
-              </div>
               
           </div>
+          <table class="table table-borderless mt-3 home-right-section-table">
+            <thead class=" table-thead-color ">
+              <tr>
+                <th scope="col">Name </th>
+                <th scope="col">Start Time</th>
+                <th scope="col">Slots </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-tr-border ">
+               <td class="custom-paragraph-color">J. Zavala</td>
+                <td class="custom-paragraph-color">06:00AM</td>
+                <td class="custom-number-color">5</td>
+              </tr>
+              <tr class="table-tr-border ">
+               <td class="custom-paragraph-color">J. Zavala</td>
+                <td class="custom-paragraph-color">06:00AM</td>
+                <td class="custom-number-color">5</td>
+              </tr>
+              <tr class="table-tr-border ">
+               <td class="custom-paragraph-color">J. Zavala</td>
+                <td class="custom-paragraph-color">06:00AM</td>
+                <td class="custom-number-color">5</td>
+              </tr>
+              <tr class="table-tr-border ">
+                <td class="custom-paragraph-color">J. Zavala</td>
+                 <td class="custom-paragraph-color">06:00AM</td>
+                 <td class="text-danger">FULL</td>
+               </tr>
+               <tr class="table-tr-border ">
+                <td class="custom-paragraph-color">J. Zavala</td>
+                 <td class="custom-paragraph-color">06:00AM</td>
+                 <td class="text-danger">FULL</td>
+               </tr>
+              <tr class="table-tr-border ">
+                <td class="custom-paragraph-color">J. Zavala</td>
+                 <td class="custom-paragraph-color">06:00AM</td>
+                 <td class="text-danger">FULL</td>
+               </tr>
+               <tr class="table-tr-border ">
+                <td class="custom-paragraph-color">J. Zavala</td>
+                 <td class="custom-paragraph-color">06:00AM</td>
+                 <td class="text-danger">FULL</td>
+               </tr>
+     
+             
+              
+            </tbody>
+          </table>
         </div>
-        <table class="table table-borderless mt-3 home-right-section-table">
-          <thead class=" table-thead-color ">
-            <tr>
-              <th scope="col">Name </th>
-              <th scope="col">Start Time</th>
-              <th scope="col">Slots </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="table-tr-border ">
-             <td class="custom-paragraph-color">J. Zavala</td>
-              <td class="custom-paragraph-color">06:00AM</td>
-              <td class="custom-number-color">5</td>
-            </tr>
-            <tr class="table-tr-border ">
-             <td class="custom-paragraph-color">J. Zavala</td>
-              <td class="custom-paragraph-color">06:00AM</td>
-              <td class="custom-number-color">5</td>
-            </tr>
-            <tr class="table-tr-border ">
-             <td class="custom-paragraph-color">J. Zavala</td>
-              <td class="custom-paragraph-color">06:00AM</td>
-              <td class="custom-number-color">5</td>
-            </tr>
-            <tr class="table-tr-border ">
-              <td class="custom-paragraph-color">J. Zavala</td>
-               <td class="custom-paragraph-color">06:00AM</td>
-               <td class="text-danger">FULL</td>
-             </tr>
-             <tr class="table-tr-border ">
-              <td class="custom-paragraph-color">J. Zavala</td>
-               <td class="custom-paragraph-color">06:00AM</td>
-               <td class="text-danger">FULL</td>
-             </tr>
-            <tr class="table-tr-border ">
-              <td class="custom-paragraph-color">J. Zavala</td>
-               <td class="custom-paragraph-color">06:00AM</td>
-               <td class="text-danger">FULL</td>
-             </tr>
-             <tr class="table-tr-border ">
-              <td class="custom-paragraph-color">J. Zavala</td>
-               <td class="custom-paragraph-color">06:00AM</td>
-               <td class="text-danger">FULL</td>
-             </tr>
-   
-           
-            
-          </tbody>
-        </table>
+        <div class="row home-right-section-second-row ml-4 p-4">
+          <div class="custom-name-color h6 client_list_link">Notification</div>
+          <p class="custom-paragraph-color f10">Showing most recent</p>
+          <div class="solid-1px-border m-2"></div>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <small class="">Employee Notification</small>
+              <div class="row align-items-center">
+                <div class="col-md-3"><img src="assets/image/icon/clock.png" alt=""></div>
+                <div class="col-md-9 f11">Change of Address</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <button class="right-section-button">Approve</button>
+            </div>
+          </div>
+          <div class="solid-1px-border m-2"></div>
 
+          <div class="row mt-3 align-items-center">
+            <div class="col-md-6">
+              <small class="">Business Notification</small>
+              <div class="row align-items-center">
+                <div class="col-md-3"><img src="assets/image/icon/clock.png" alt=""></div>
+                <div class="col-md-9 f11">Scheduling Request</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <button class="right-section-button">View</button>
+            </div>
+          </div>
+          <div class="solid-1px-border m-2"></div>
+
+        </div>
+  
       </div>
+  
+    </div>
+    <div class="text-center pt-5 pb-2" >
+      Trademark & Copyright MELOSPEECH INC 2023. All Rights Reserved
+
     </div>
 
     
