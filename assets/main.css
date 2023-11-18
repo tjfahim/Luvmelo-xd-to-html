@@ -36,6 +36,10 @@
     border-radius: 10px;
   }
 
+  .table td, .table th  {
+    vertical-align: middle;
+  }
+
 /* Header CSS end */
 @media (min-width: 991.98px) {
     main {
@@ -188,9 +192,8 @@
     font-size: 13px;
 }
 
-/* If you want to add hover effect */
 .right-section-button:hover {
-    background-color: #4e465f; /* Change to a slightly different shade on hover if desired */
+    background-color: #4e465f; 
 }
 .row.align-items-center {
   display: flex;
@@ -202,15 +205,16 @@
 }
 
 
-/* End Home */
-/* Start Employee List */
+/*------------------------- End Home --------------------------------- */
 
+
+/*------------------------- Start Employee List --------------------------------- */
 .employee-middle-section{
   background: white;
   margin-left: -3%;
   border-radius: 10px;
   margin-top: 3%;
-  height: 70vh;
+  height: 80vh;
   overflow-y: auto;
 }
 .search-section {
@@ -228,14 +232,14 @@
 .select-section {
   background-color: #ffffff00;
   color:  #BCBCBC;
-  padding: 8px 13px;
+  padding: 6px 8px;
   border: 1px solid #BCBCBC;
   border-radius: 40px;
   width: 100%;
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
+  font-size: 11px;
 }
 .request-button {
   background-color: #8F00FF;
@@ -261,8 +265,31 @@
   display: inline-block;
   font-size: 11px;
 }
-.table td, .table th  {
-  vertical-align: middle;
+
+/*------------------------- End Employee List --------------------------------- */
+
+
+/*------------------------- Start Client List --------------------------------- */
+
+.client-card-custom .section-1-img{
+  width: 106%;
 }
-/* End Home */
+.client-card-custom .section-2-icon{
+  width: 13%;
+}
+.client-middle-section{
+  background: rgba(255, 255, 255, 0.557);
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+  height: 80vh;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.row.mt-4.bgw-br15.client-card-custom{
+  margin-right: 0;
+}
+
+/*------------------------- End Client List --------------------------------- */
+
 
