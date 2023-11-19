@@ -218,7 +218,7 @@
   overflow-y: auto;
 }
 .search-section {
-  background-color: #ffffff00;
+  background-color: #ffffffeb;
   color:  #BCBCBC;
   padding: 12px 18px;
   border: 1px solid #BCBCBC;
@@ -314,23 +314,17 @@
   background: white;
   overflow: hidden;
   border-radius: 10px;
+  background-image: url("../assets/image/shape/Combined Shape.png" );
+
 }
 
-.client-drop-drag-section img{
-  width: 220%;
-  margin-left: -60%;
-}
-.client-drop-drag-section img{
-  width: 220%;
-  margin-left: -60%;
-}
 .client-drop-drag-section .drag-text{
-  z-index: 1;
-  position: relative;
-  margin-top: -49%;
   background-color: #FFFFFF;
   border-radius: 10px;
   font-size: 13px;
+  width: 60%;
+ margin:auto;
+ margin-top: 13%;
   
 }
 
@@ -348,5 +342,71 @@
 }
 
 /*------------------------- End Client List --------------------------------- */
+
+
+/*------------------------- Start Distance Finder --------------------------------- */
+
+#distance-finder-bg-image{
+  background-image: url(../assets/image/Highway-leading-to-t.png);
+  
+}
+
+.distance-finder-middle-section{
+  background-color: #0000009a;
+  color:  white;
+  border-radius: 15px;
+  width: 84%;
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+
+
+.distance-finder-drop-drag-section{
+  height: 150%;
+  background: white;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url("../assets/image/shape/Combined Shape.png" );
+}
+
+.distance-finder-drop-drag-section .drag-text{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 60%;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+.distance-finder-drop-drag-section .plus-text{
+  background-color: #8F00FF;
+  font-size: 17px;
+  width: 13%;
+  height: 35%;
+  color: white;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+
+.distance-finder-btn button{
+  background-color: #A564FF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 40px;
+  width: 30%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: -4%;
+  margin-top: 4%;
+}
+/*------------------------- End Distance Finder --------------------------------- */
+
+
 
 
