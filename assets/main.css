@@ -678,6 +678,107 @@ main {
 }
 
 /*------------------------- End Empleoyee Edit --------------------------------- */
+/*------------------------- Start Messaging --------------------------------- */
+
+
+.select-section-messaging {
+  background-color: #ffffff00;
+  color:  #BCBCBC;
+  padding: 6px 8px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 120%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.messaging-section-second-row{
+  margin-top: 6%;
+  margin-left: -5%;
+  border-radius: 10px;
+}
+
+.messaging-card-section-overflow{
+  height: 100vh;
+      overflow-y: auto;
+}
+.messaging-card-section-active{
+
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+
+}
+
+.messaging-card-section{
+
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+
+}
+
+.messaging-card-section img{
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+
+}
+.messaging-card-section-active img{
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+
+}
+.right-border-messaging{
+  border-right: 2px solid #3447D3;
+  height: 15px;
+  position: relative;
+    margin-left: 101%;
+    margin-top: -20%;
+}
+
+.avatar-sm-image-messaging img{
+  width: 40px;
+}
+
+.messaging-box-section{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgba(72, 71, 71, 0.187);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+
+.messages-icon-custom-div{
+  height: 30px;
+  width: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+.messages-icon-custom-div-push{
+  height: 30px;
+  width: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 5px;
+  background-color: #3246D3;
+}
+.messages-icon-custom{
+  margin-right: 10px;
+}
+.messages-icon-custom img{
+height: 15px;
+width: 15px;
+margin-top: 4px;
+margin-left: 8px;
+
+}
+
+/*------------------------- End Messaging --------------------------------- */
 
 
 
