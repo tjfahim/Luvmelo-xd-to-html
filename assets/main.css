@@ -8,6 +8,10 @@
 main {
   background: rgb(239 239 239);
 }
+.mp0{
+  margin:0;
+  padding: 0;
+}
 .custom-name-color{
       color: #232323;
     }
@@ -278,6 +282,9 @@ main {
 .client-card-custom .section-2-icon{
   width: 13%;
 }
+.row.mt-4.bgw-br15.client-card-custom{
+  margin-right: 0;
+}
 .client-middle-section{
   background: rgba(255, 255, 255, 0.557);
   margin-left: -3%;
@@ -305,9 +312,7 @@ main {
   display: inline-block;
   font-size: 11px;
 }
-.row.mt-4.bgw-br15.client-card-custom{
-  margin-right: 0;
-}
+
 
 .client-right-card-custom .right-section-1-img{
   width: 90%;
@@ -528,4 +533,151 @@ main {
 
 
 /*------------------------- End Calendar --------------------------------- */
+
+
+/*------------------------- Start Empleoyee Edit --------------------------------- */
+
+.employee-middle-section-edit{
+  background: white;
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+.employee-details-input{
+  font-size: 14px;
+}
+.employee-details-input input{
+  border-radius: 17px;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.employee-details-input input[type=text] {
+  width: 100%;
+  padding: 3px 20px;
+  margin: 0px 0;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+.request-button-employee-view {
+  background-color: #0E9A33;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.col-custom-14{
+  width: 14%;
+}
+
+
+.employee-details-input-small input[type=text] {
+  padding: 0px 8px;
+  margin: 0px 0;
+  font-size: 9px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+
+.employee-details-by-day{
+  border: 1px solid #70707042;
+    border-radius: 5px;
+    padding-left: 3%;
+    margin-left: 2%;
+}
+.employee-details-input-small .border-line-employee {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
+
+.request-button-employee-view-update {
+  background-color: #A564FF;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.col-custom-14 input[type=text]:checked {
+  color: #06CB75;
+}
+
+.employee-slot-date{
+  height: 40px;
+  padding-left: 14px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+.employee-client-card-custom .section-1-img{
+
+  height: 65px;
+  width: 65px;
+}
+.employee-client-card-custom .section-2-icon{
+  width: 13%;
+}
+.row.mt-4.bgw-br15.employee-client-card-custom{
+  margin-right: 0;
+}
+
+.employee-client-card-custom{
+  align-items: center;
+  display: flex;
+}
+
+
+
+.empoyee-view-drop-drag-section{
+  height: 70px;
+  background: white;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url("../assets/image/shape/Combined Shape.png" );
+}
+
+.empoyee-view-drop-drag-section .drag-text{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 60%;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+.empoyee-view-drop-drag-section .plus-text{
+ 
+  background-color: #8F00FF;
+  font-size: 17px;
+  width: 33px;
+  height: 33px;
+  color: white;
+  margin: auto;
+  margin-top: 21%;
+  
+}
+
+/*------------------------- End Empleoyee Edit --------------------------------- */
+
+
 
