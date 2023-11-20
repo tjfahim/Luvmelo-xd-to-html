@@ -5,7 +5,9 @@
     padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
-
+main {
+  background: rgb(239 239 239);
+}
 .custom-name-color{
       color: #232323;
     }
@@ -98,9 +100,7 @@
     background-color: #eeeeee1a;
     color: white;
   }
-  main {
-    background: rgb(239 239 239);
-  }
+
   .overview-text{
     margin-left: -3%;
     
@@ -215,7 +215,7 @@
   border-radius: 10px;
   margin-top: 3%;
   height: 80vh;
-  overflow-y: auto;
+  overflow-x: auto;
 }
 .search-section {
   background-color: #ffffffeb;
@@ -229,18 +229,19 @@
   display: inline-block;
   font-size: 13px;
 }
-.select-section {
+.select-section-employee {
   background-color: #ffffff00;
   color:  #BCBCBC;
   padding: 6px 8px;
   border: 1px solid #BCBCBC;
   border-radius: 40px;
-  width: 120%;
+  width: 100%;
   text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 11px;
 }
+
 .request-button {
   background-color: #8F00FF;
   color: white;
@@ -290,6 +291,19 @@
   background-image: linear-gradient(#B585FD, #7B46CB);
   width: 30%;
   border-radius: 10px;
+}
+
+.select-section {
+  background-color: #ffffff00;
+  color:  #BCBCBC;
+  padding: 6px 8px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 120%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
 }
 .row.mt-4.bgw-br15.client-card-custom{
   margin-right: 0;
@@ -407,6 +421,111 @@
 }
 /*------------------------- End Distance Finder --------------------------------- */
 
+/*------------------------- Start Calendar --------------------------------- */
+
+#calendar-main-div{
+  margin-left: -3%;
+}
+.calender-section{
+  margin-left: -2%;
+}
+
+#list-group-item {
+  background:none;
+  border: none;
+}
+
+#calendar-time-button{
+  padding: 6px 2px;
+
+  border: 1px solid #A1A1A1;
+  border-radius: 3px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 1%;
+}
+#calendar-time-button-active{
+  padding: 6px 2px;
+  border: 1px solid #A1A1A1;
+  border-radius: 3px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: #A564FF;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 1%;
+}
+#calendar-time-button-disable{
+  padding: 6px 2px;
+  border: 1px solid #A1A1A1;
+  border-radius: 3px;
+  width: 100%;
+  background: #DEDEDE ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 1%;
+}
+
+.calendar-schedule-btn button{
+  background-color: #A564FF;
+  color: white;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 40px;
+  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: -4%;
+  margin-top: 4%;
+  margin: auto;
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side,  rgb(239 239 239) 79%, transparent 80% 100%),
+    conic-gradient(#A564FF 75%, #f9f9f9e0 0);    
+}
+
+.progress-bar::before {
+  content: "75%";
+}
+
+.calendar-middle-yellow-line {
+  border-top: 1px solid #FFEB3B;
+  width: 80%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.calendar-middle-yellow-line-vertical {
+  border-left: 1px solid #FFEB3B;
+  height: 50%;
+  width: 1px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
 
 
+
+
+
+/*------------------------- End Calendar --------------------------------- */
 
