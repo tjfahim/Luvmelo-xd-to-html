@@ -290,7 +290,7 @@ main {
   margin-left: -3%;
   border-radius: 10px;
   margin-top: 3%;
-  height: 80vh;
+  height: 135vh;
   overflow-y: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -351,9 +351,9 @@ main {
   background-color: #C2A8EA;
   color: white;
   padding: 10px 15px;
-  border: none;
+  border: 1px solid #0062FF;
   border-radius: 40px;
-  width: 100%;
+  width: 80%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -543,6 +543,38 @@ main {
   border-radius: 10px;
   margin-top: 3%;
 }
+
+.request-button-employee-view {
+  background-color: #0E9A33;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.request-button-employee-view-update {
+  background-color: #A564FF;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.col-custom-14{
+  width: 14%;
+}
+
 .employee-details-input{
   font-size: 14px;
 }
@@ -561,23 +593,6 @@ main {
   border: 1 px solid red;
   border-color:rgb(118, 118, 118,0.25);
 }
-.request-button-employee-view {
-  background-color: #0E9A33;
-  color: white;
-  padding: 5px 8px;
-  border: none;
-  font-size: 14px;
-  border-radius: 40px;
-  width: 60%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 11px;
-}
-
-.col-custom-14{
-  width: 14%;
-}
 
 
 .employee-details-input-small input[type=text] {
@@ -588,32 +603,20 @@ main {
   border: 1 px solid red;
   border-color:rgb(118, 118, 118,0.25);
 }
-
+.employee-details-input-small .border-line-employee {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
 .employee-details-by-day{
   border: 1px solid #70707042;
     border-radius: 5px;
     padding-left: 3%;
     margin-left: 2%;
 }
-.employee-details-input-small .border-line-employee {
-  padding: 5%;
-    height: 0;
-    margin-top: -11%;
-}
 
-.request-button-employee-view-update {
-  background-color: #A564FF;
-  color: white;
-  padding: 3px;
-  border: none;
-  font-size: 14px;
-  border-radius: 40px;
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 10px;
-}
+
+
 .col-custom-14 input[type=text]:checked {
   color: #06CB75;
 }
@@ -778,7 +781,117 @@ margin-left: 8px;
 
 }
 
+
+
 /*------------------------- End Messaging --------------------------------- */
+/*------------------------- Start Client View Expand --------------------------------- */
+.client-middle-section-edit{
+  background: white;
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+.client-view-expand-input-small input[type=text] {
+  padding: 0px 8px;
+  margin: 0px 0;
+  font-size: 9px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+.client-view-expand-input-small .border-line-client {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
+
+
+.clients-details-by-day{
+  border: 1px solid #70707042;
+    border-radius: 5px;
+    padding-left: 3%;
+    margin-left: 2%;
+}
+
+
+
+
+.client-details-input{
+  font-size: 14px;
+}
+.client-details-input input{
+  border-radius: 17px;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.client-details-input input[type=text] {
+  width: 100%;
+  padding: 3px 20px;
+  margin: 0px 0;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+
+
+.client-details-input-small input[type=text] {
+  padding: 0px 8px;
+  margin: 0px 0;
+  font-size: 9px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+.client-details-input-small .border-line-client {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
+
+
+.request-button-client-view {
+  background-color: #0E9A33;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.request-button-client-view-update {
+  background-color: #A564FF;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.request-button-client-view-update-right {
+float: right;
+
+}
+.request-button-client-view-update-right button {
+  margin-left:40%;
+
+}
+
+
+
+
+
+
+/*------------------------- End Client View Expand --------------------------------- */
 
 
 
