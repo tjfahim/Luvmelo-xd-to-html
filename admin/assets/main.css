@@ -329,7 +329,7 @@ main {
 }
 
 .client-drop-drag-section{
-  height: 25%;
+  height: 95px;
   background: white;
   overflow: hidden;
   border-radius: 10px;
@@ -596,9 +596,10 @@ main {
 
 
 .employee-details-input-small input[type=text] {
-  padding: 0px 8px;
+  padding: 0px 0px;
   margin: 0px 0;
   font-size: 9px;
+  color: #007E30;
   box-sizing: border-box;
   border: 1 px solid red;
   border-color:rgb(118, 118, 118,0.25);

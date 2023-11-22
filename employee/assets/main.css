@@ -1,0 +1,1101 @@
+
+/* Header CSS start */
+.navbar {
+    --mdb-navbar-box-shadow: 0 4px 12px 0 RGBA(0,84,254,0.1),0 2px 4px rgba(0,0,0,0.05);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+main {
+  background: rgb(239 239 239);
+}
+.mp0{
+  margin:0;
+  padding: 0;
+}
+.custom-name-color{
+      color: #232323;
+    }
+.custom-paragraph-color{
+      color: #666666;
+    }
+.custom-number-color{
+      color: #06CB75;
+    }
+
+    .f10{
+      font-size: 10px;
+    }
+    .f9{
+      font-size: 9px;
+    }
+    .f11{
+      font-size: 11px;
+    }
+    .f10-5{
+      font-size: 10.5px;
+    }
+    .f11-5{
+      font-size: 11.5px;
+    }
+  .bgw-br15{
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .table td, .table th  {
+    vertical-align: middle;
+  }
+
+/* Header CSS end */
+@media (min-width: 991.98px) {
+    main {
+      padding-left: 240px;
+    }
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 150px;
+    z-index: 600;
+    background-color: #8F00FF;
+  }
+  .sidebar .active {
+    color: #D5D739;
+  }
+  .background-color-nav{
+    background-color: #8F00FF;
+  }
+  .link-text-color-nav{
+    color: #ffffff;
+  }
+  .link-text-color-nav:hover{
+    color: #D5D739;
+  }
+
+  
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+      
+    }
+  }
+  .sidebar .active {
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    background-color: #8F00FF;
+  }
+
+  .dropdown-item.active, .dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover {
+    background-color: #eeeeee1a;
+    color: white;
+  }
+
+  .overview-text{
+    margin-left: -3%;
+    
+  }
+  .home-main-section{
+    width: 100%;
+  }
+  .home-main-section .home-first-sectio-row{
+    margin-left: -5%;
+    margin-top: 2%;
+    overflow: hidden;
+  }
+  .home-main-section-img{
+    width: 125%;
+  }
+  .home-main-section .home-first-sectio-row{
+    display: flex;
+    align-items: center;
+  }
+
+  .home-first-section-second-row{
+    margin-top: 6%;
+    margin-left: -5%;
+    background: #ffffff42;
+    border-radius: 10px;
+  }
+
+  .client_list_link{
+    margin-top: 2%;
+  }
+  .client_list_link{
+    height: 20px;
+    width: 20px;
+  }
+
+  
+  .home-first-section div.custom-name-color{
+    font-size: 20px;
+  }
+  .home-first-section p.custom-paragraph-color{
+    font-size: 12px;
+  }
+
+  .middle-element-first{
+    background-image: linear-gradient(#FE8E25, #FFD461);
+    border-radius: 10px;
+  }
+  .middle-element-second{
+    background-image: linear-gradient(#B585FD, #7B46CB);
+    border-radius: 10px;
+  }
+  .middle-element-third{
+    background-image: linear-gradient(RGBA(21,76,180,0.84 ), #72E5D3);
+    border-radius: 10px;
+  }
+
+  .home-right-section{
+    background: white;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 3%;
+    height: 70vh;
+    overflow-y: auto;
+
+  }
+  
+  .table-thead-color{
+    background:#EAF2FF;
+  }
+  .table-tr-border {
+    border-bottom:1pt solid #EAF2FF;
+  }
+
+  .home-right-section-second-row{
+    margin-top: 6%;
+    background: #ffffff42;
+    border-radius: 10px;
+  }
+  .right-section-button {
+    background-color: #A564FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.right-section-button:hover {
+    background-color: #4e465f; 
+}
+.row.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.solid-1px-border {
+  border-bottom:1px solid #BCBCBC;
+}
+
+
+/*------------------------- End Home --------------------------------- */
+
+
+/*------------------------- Start Employee List --------------------------------- */
+.employee-middle-section{
+  background: white;
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+  height: 80vh;
+  overflow-x: auto;
+}
+.search-section {
+  background-color: #ffffffeb;
+  color:  #BCBCBC;
+  padding: 12px 18px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 75%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+.select-section-employee {
+  background-color: #ffffff00;
+  color:  #BCBCBC;
+  padding: 6px 8px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.request-button {
+  background-color: #8F00FF;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.request-button-disable {
+  background-color: #E4E4E4;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+
+/*------------------------- End Employee List --------------------------------- */
+
+
+/*------------------------- Start Client List --------------------------------- */
+
+.client-card-custom .section-1-img{
+  width: 106%;
+}
+.client-card-custom .section-2-icon{
+  width: 13%;
+}
+.row.mt-4.bgw-br15.client-card-custom{
+  margin-right: 0;
+}
+.client-middle-section{
+  background: rgba(255, 255, 255, 0.557);
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+  height: 135vh;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.client-compare-window{
+  background-image: linear-gradient(#B585FD, #7B46CB);
+  width: 30%;
+  border-radius: 10px;
+}
+
+.select-section {
+  background-color: #ffffff00;
+  color:  #BCBCBC;
+  padding: 6px 8px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 120%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+
+
+.client-right-card-custom .right-section-1-img{
+  width: 90%;
+  border-radius: 50%;
+}
+.client-right-card-custom .section-2-icon{
+  width: 13%;
+}
+
+.client-right-section-div .client-link-text{
+  background: #F1F1F5;
+  border-radius: 5px;
+
+}
+
+.client-drop-drag-section{
+  height: 25%;
+  background: white;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url("../assets/image/shape/Combined Shape.png" );
+
+}
+
+.client-drop-drag-section .drag-text{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 60%;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+
+.client-right-buttom-btn button {
+  background-color: #C2A8EA;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid #0062FF;
+  border-radius: 40px;
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+/*------------------------- End Client List --------------------------------- */
+
+
+/*------------------------- Start Distance Finder --------------------------------- */
+
+#distance-finder-bg-image{
+  background-image: url(../assets/image/Highway-leading-to-t.png);
+  
+}
+
+.distance-finder-middle-section{
+  background-color: #0000009a;
+  color:  white;
+  border-radius: 15px;
+  width: 84%;
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+
+
+.distance-finder-drop-drag-section{
+  height: 150%;
+  background: white;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url("../assets/image/shape/Combined Shape.png" );
+}
+
+.distance-finder-drop-drag-section .drag-text{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 60%;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+.distance-finder-drop-drag-section .plus-text{
+  background-color: #8F00FF;
+  font-size: 17px;
+  width: 13%;
+  height: 35%;
+  color: white;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+
+.distance-finder-btn button{
+  background-color: #A564FF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 40px;
+  width: 30%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: -4%;
+  margin-top: 4%;
+}
+/*------------------------- End Distance Finder --------------------------------- */
+
+/*------------------------- Start Calendar --------------------------------- */
+
+#calendar-main-div{
+  margin-left: -3%;
+}
+.calender-section{
+  margin-left: -2%;
+}
+
+#list-group-item {
+  background:none;
+  border: none;
+}
+
+#calendar-time-button{
+  padding: 6px 2px;
+
+  border: 1px solid #A1A1A1;
+  border-radius: 3px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 1%;
+}
+#calendar-time-button-active{
+  padding: 6px 2px;
+  border: 1px solid #A1A1A1;
+  border-radius: 3px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: #A564FF;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 1%;
+}
+#calendar-time-button-disable{
+  padding: 6px 2px;
+  border: 1px solid #A1A1A1;
+  border-radius: 3px;
+  width: 100%;
+  background: #DEDEDE ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 1%;
+}
+
+.calendar-schedule-btn button{
+  background-color: #A564FF;
+  color: white;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 40px;
+  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: -4%;
+  margin-top: 4%;
+  margin: auto;
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side,  rgb(239 239 239) 79%, transparent 80% 100%),
+    conic-gradient(#A564FF 75%, #f9f9f9e0 0);    
+}
+
+.progress-bar::before {
+  content: "75%";
+}
+
+.calendar-middle-yellow-line {
+  border-top: 1px solid #FFEB3B;
+  width: 80%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.calendar-middle-yellow-line-vertical {
+  border-left: 1px solid #FFEB3B;
+  height: 50%;
+  width: 1px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+/*------------------------- End Calendar --------------------------------- */
+
+
+/*------------------------- Start Empleoyee Edit --------------------------------- */
+
+.employee-middle-section-edit{
+  background: white;
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+.request-button-employee-view {
+  background-color: #0E9A33;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.request-button-employee-view-update {
+  background-color: #A564FF;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.col-custom-14{
+  width: 14%;
+}
+
+.employee-details-input{
+  font-size: 14px;
+}
+.employee-details-input input{
+  border-radius: 17px;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.employee-details-input input[type=text] {
+  width: 100%;
+  padding: 3px 20px;
+  margin: 0px 0;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+
+
+.employee-details-input-small input[type=text] {
+  padding: 0px 0px;
+  margin: 0px 0;
+  font-size: 9px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  color: #007E30;
+  border-color:rgb(118, 118, 118,0.25);
+}
+.employee-details-input-small .border-line-employee {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
+.employee-details-by-day{
+  border: 1px solid #70707042;
+    border-radius: 5px;
+    padding-left: 3%;
+    margin-left: 2%;
+}
+
+
+
+.col-custom-14 input[type=text]:checked {
+  color: #06CB75;
+}
+
+.employee-slot-date{
+  height: 40px;
+  padding-left: 14px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+.employee-client-card-custom .section-1-img{
+
+  height: 65px;
+  width: 65px;
+}
+.employee-client-card-custom .section-2-icon{
+  width: 13%;
+}
+.row.mt-4.bgw-br15.employee-client-card-custom{
+  margin-right: 0;
+}
+
+.employee-client-card-custom{
+  align-items: center;
+  display: flex;
+}
+
+
+
+.empoyee-view-drop-drag-section{
+  height: 70px;
+  background: white;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url("../assets/image/shape/Combined Shape.png" );
+}
+
+.empoyee-view-drop-drag-section .drag-text{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 60%;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+.empoyee-view-drop-drag-section .plus-text{
+ 
+  background-color: #8F00FF;
+  font-size: 17px;
+  width: 33px;
+  height: 33px;
+  color: white;
+  margin: auto;
+  margin-top: 21%;
+  
+}
+
+/*------------------------- End Empleoyee Edit --------------------------------- */
+/*------------------------- Start Employeee Dashboard Overview --------------------------------- */
+
+
+.select-section-employee-dashboard {
+  background-color: #ffffff00;
+  color:  #BCBCBC;
+  padding: 6px 8px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 120%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.employee-dashboard-section-second-row{
+  margin-top: 6%;
+  margin-left: -5%;
+  border-radius: 10px;
+}
+
+.employee-dashboard-card-section-overflow{
+  height: 100vh;
+      overflow-y: auto;
+}
+.employee-dashboard-card-section-active{
+
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+
+}
+
+.employee-dashboard-card-section{
+
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+
+}
+
+.employee-dashboard-card-section img{
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+
+}
+.employee-dashboard-card-section-active img{
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+
+}
+.right-border-employee-dashboard{
+  border-right: 2px solid #3447D3;
+  height: 15px;
+  position: relative;
+    margin-left: 101%;
+    margin-top: -20%;
+}
+
+.avatar-sm-image-employee-dashboard img{
+  width: 40px;
+}
+
+.employee-dashboard-box-section{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgba(72, 71, 71, 0.187);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+
+.messages-icon-custom-div{
+  height: 30px;
+  width: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+.messages-icon-custom-div-push{
+  height: 30px;
+  width: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 5px;
+  background-color: #3246D3;
+}
+.messages-icon-custom{
+  margin-right: 10px;
+}
+.messages-icon-custom img{
+height: 15px;
+width: 15px;
+margin-top: 4px;
+margin-left: 8px;
+
+}
+
+.search-section-employee {
+  background-color: #ffffffeb;
+  color:  #BCBCBC;
+  padding: 10px 16px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 95%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+.select-section-employee-dashboard-home {
+  background-color: #ffffff00;
+  color: #BCBCBC;
+  padding: 4px 5px;
+  border: 1px solid #BCBCBC;
+  border-radius: 40px;
+  width: 90%;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.employee-dashboard-compare-window{
+  background-image: linear-gradient(#B585FD, #7B46CB);
+  width: 30%;
+  border-radius: 10px;
+  height: 65%;
+  margin-top: 7%;
+}
+.employee-dashboard-compare-window-expand{
+  background-image: linear-gradient(#B585FD, #7B46CB);
+  width: 30%;
+  border-radius: 10px;
+  height: 95%;
+  margin-top: 7%;
+}
+
+
+
+.employee-dashboard-right-card-custom .right-section-1-img{
+  width: 90%;
+  border-radius: 50%;
+}
+.employee-dashboard-right-card-custom .section-2-icon{
+  width: 13%;
+}
+
+.employee-dashboard-right-section-div .employee-dashboard-link-text{
+  background: #F1F1F5;
+  border-radius: 5px;
+
+}
+
+
+.employee-dashboard-drop-drag-section{
+  height: 95px;
+  background: white;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url("../assets/image/shape/Combined Shape.png" );
+
+}
+
+.employee-dashboard-drop-drag-section .drag-text{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 60%;
+ margin:auto;
+ margin-top: 13%;
+  
+}
+
+.employee-dashboard-right-buttom-btn button {
+  background-color: #C2A8EA;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid #0062FF;
+  border-radius: 40px;
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+/*------------------------- End Employeee Dashboard Overview --------------------------------- */
+
+
+/*------------------------- Start Employeee dashboard View Expand Overview --------------------------------- */
+.employee-dashboard-client-card-custom .section-1-img{
+
+  height: 65px;
+  width: 65px;
+}
+.employee-dashboard-client-card-custom .section-2-icon{
+  width: 13%;
+}
+.row.mt-4.bgw-br15.employee-dashboard-client-card-custom{
+  margin-right: 0;
+}
+
+.employee-dashboard-client-card-custom{
+  align-items: center;
+  display: flex;
+}
+.employee-dashboard-middle-section-edit{
+  background: white;
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+
+.employee-dashboard-details-input-small input[type=text] {
+  padding: 0px 0px;
+  margin: 0px 0;
+  font-size: 9px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  color: #007E30;
+  border-color:rgb(118, 118, 118,0.25);
+}
+.employee-dashboard-details-input-small .border-line-employee-dashboard {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
+
+
+.request-button-employee-dashboard-view {
+  background-color: #0E9A33;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.request-button-employee-dashboard-view-update {
+  background-color: #A564FF;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+
+.employee-dashbord-details-by-day{
+  border: 1px solid #70707042;
+    border-radius: 5px;
+    padding-left: 3%;
+    margin-left: 2%;
+}
+
+
+.employee-dashboard-details-input{
+  font-size: 14px;
+}
+.employee-dashboard-details-input input{
+  border-radius: 17px;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.employee-dashboard-details-input input[type=text] {
+  width: 100%;
+  padding: 3px 20px;
+  margin: 0px 0;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------- End Employeee dashboard View Expand Overview --------------------------------- */
+
+/*------------------------- Start Client View Expand --------------------------------- */
+.client-middle-section-edit{
+  background: white;
+  margin-left: -3%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+.client-view-expand-input-small input[type=text] {
+  padding: 0px 8px;
+  margin: 0px 0;
+  font-size: 9px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+.client-view-expand-input-small .border-line-client {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
+
+
+.clients-details-by-day{
+  border: 1px solid #70707042;
+    border-radius: 5px;
+    padding-left: 3%;
+    margin-left: 2%;
+}
+
+
+
+
+.client-details-input{
+  font-size: 14px;
+}
+.client-details-input input{
+  border-radius: 17px;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.client-details-input input[type=text] {
+  width: 100%;
+  padding: 3px 20px;
+  margin: 0px 0;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+
+
+.client-details-input-small input[type=text] {
+  padding: 0px 8px;
+  margin: 0px 0;
+  font-size: 9px;
+  box-sizing: border-box;
+  border: 1 px solid red;
+  border-color:rgb(118, 118, 118,0.25);
+}
+.client-details-input-small .border-line-client {
+  padding: 5%;
+    height: 0;
+    margin-top: -11%;
+}
+
+
+.request-button-client-view {
+  background-color: #0E9A33;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.request-button-client-view-update {
+  background-color: #A564FF;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.request-button-client-view-update-right {
+float: right;
+
+}
+.request-button-client-view-update-right button {
+  margin-left:40%;
+
+}
+
+
+
+
+
+
+/*------------------------- End Client View Expand --------------------------------- */
+
+
+
