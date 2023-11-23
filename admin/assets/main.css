@@ -1,5 +1,30 @@
 
 /* Header CSS start */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar {
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
 .navbar {
     --mdb-navbar-box-shadow: 0 4px 12px 0 RGBA(0,84,254,0.1),0 2px 4px rgba(0,0,0,0.05);
     padding-top: 1.5%;
@@ -287,16 +312,20 @@ main {
 }
 .client-middle-section{
   background: rgba(255, 255, 255, 0.557);
-  margin-left: -3%;
+  margin-left: -1%;
   border-radius: 10px;
-  margin-top: 3%;
+  margin-top: 2%;
   height: 135vh;
-  overflow-y: auto;
+  overflow-x: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+
 .client-compare-window{
   background-image: linear-gradient(#B585FD, #7B46CB);
   width: 30%;
+  height: 65%;
+
   border-radius: 10px;
 }
 
@@ -793,7 +822,7 @@ margin-left: 8px;
   margin-top: 3%;
 }
 .client-view-expand-input-small input[type=text] {
-  padding: 0px 8px;
+  padding: 0px 0px;
   margin: 0px 0;
   font-size: 9px;
   box-sizing: border-box;
@@ -838,7 +867,7 @@ margin-left: 8px;
 
 
 .client-details-input-small input[type=text] {
-  padding: 0px 8px;
+  padding: 0px 0px;
   margin: 0px 0;
   font-size: 9px;
   box-sizing: border-box;

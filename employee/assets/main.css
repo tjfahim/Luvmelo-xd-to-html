@@ -5,6 +5,25 @@
     padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 main {
   background: rgb(239 239 239);
 }
@@ -287,11 +306,11 @@ main {
 }
 .client-middle-section{
   background: rgba(255, 255, 255, 0.557);
-  margin-left: -3%;
+  margin-left: -1%;
   border-radius: 10px;
-  margin-top: 3%;
+  margin-top: 2%;
   height: 135vh;
-  overflow-y: auto;
+  overflow-x: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .client-compare-window{
@@ -876,23 +895,56 @@ margin-left: 8px;
 
 
 /*------------------------- Start Employeee dashboard View Expand Overview --------------------------------- */
-.employee-dashboard-client-card-custom .section-1-img{
-
-  height: 65px;
-  width: 65px;
+.employee-dashboard-overview-client-card-custom .section-1-img{
+  margin-left: -80px;
+  width: 166px;
+  margin-top: -40px;
 }
-.employee-dashboard-client-card-custom .section-2-icon{
-  width: 13%;
+.employee-dashboard-overview-client-card-custom .section-2-icon{
+  width: 8%;
 }
-.row.mt-4.bgw-br15.employee-dashboard-client-card-custom{
+.employee-dashboard-overview-client-card-custom{
   margin-right: 0;
+  border-radius: 10px;
+}
+.employee-dashboard-overview-client-card-custom .color-section{
+  background-color: #FB9D2E ;
+  border-radius: 10px;
+
 }
 
-.employee-dashboard-client-card-custom{
+
+.employee-dashboard-overview-client-card-custom{
   align-items: center;
   display: flex;
 }
-.employee-dashboard-middle-section-edit{
+.employee-dashboard-overview-client-card-custom-last-section .section-1-img{
+  margin-left: -80px;
+  width: 166px;
+  margin-top: -40px;
+}
+.employee-dashboard-overview-client-card-custom-last-section .section-2-icon{
+  width: 8%;
+}
+.employee-dashboard-overview-client-card-custom-last-section{
+  margin-right: 0;
+  border-radius: 10px;
+}
+
+
+.employee-dashboard-overview-client-card-custom-last-section{
+  align-items: center;
+  display: flex;
+}
+
+.employee-dashboard-overview-client-card-custom-last-section .color-section{
+  background-color: #97CA43 ;
+  border-radius: 10px;
+
+}
+
+
+.employee-dashboard-overview-middle-section-edit{
   background: white;
   margin-left: -3%;
   border-radius: 10px;
@@ -979,6 +1031,36 @@ margin-left: 8px;
 
 
 
+.employee-dashboard-client-card-custom .section-1-img{
+
+  height: 65px;
+  width: 65px;
+}
+.employee-dashboard-client-card-custom .section-2-icon{
+  width: 13%;
+}
+.row.mt-4.bgw-br15.employee-dashboard-client-card-custom{
+  margin-right: 0;
+}
+
+.employee-dashboard-client-card-custom{
+  align-items: center;
+  display: flex;
+}
+
+.request-button-employee-overview-view-btn{
+  background-color: #8F00FF;
+  color: white;
+  padding: 5px 8px;
+  border: none;
+  font-size: 14px;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
 
 
 
@@ -996,7 +1078,7 @@ margin-left: 8px;
   margin-top: 3%;
 }
 .client-view-expand-input-small input[type=text] {
-  padding: 0px 8px;
+  padding: 0px 0px;
   margin: 0px 0;
   font-size: 9px;
   box-sizing: border-box;
@@ -1041,7 +1123,7 @@ margin-left: 8px;
 
 
 .client-details-input-small input[type=text] {
-  padding: 0px 8px;
+  padding: 0px 0px;
   margin: 0px 0;
   font-size: 9px;
   box-sizing: border-box;
@@ -1091,7 +1173,11 @@ float: right;
 }
 
 
-
+.client_profile_view_expand_note{
+  height:250px;
+  border:1px solid #707070;
+  border-radius: 6px;
+}
 
 
 
