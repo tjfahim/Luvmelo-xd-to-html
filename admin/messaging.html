@@ -29,9 +29,17 @@
 <body>
   <header>
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse">
-        <div class="position-sticky">
-          <div class="list-group list-group-flush">
-            <img class="px-3" src="assets/image/temp_logo_luvmelo_co.png" alt="">
+   
+      <div class="position-sticky">
+        
+        <div class="text-right">
+          <img class="px-3" src="assets/image/temp_logo_luvmelo_co.png" alt="">
+
+          <button class="navbar-toggler pr-4" type="button" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+    
             <a href="index.html" class="link-text-color-nav " aria-current="true">
               <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <i class="fas fa-tachometer-alt fa-fw me-3 m-1"></i>
@@ -86,20 +94,12 @@
       </nav>
       <!-- Sidebar -->
   <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <!-- Container wrapper -->
             <div class="container-fluid">
             <!-- Toggle button -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <i class="fas fa-bars"></i>
+            <button class="navbar-toggler" type="button" onclick="toggleSidebar()">
+              <i class="fas fa-bars"></i>
             </button>
         
             <!-- Collapsible wrapper -->
@@ -507,6 +507,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+  <script>
+    function toggleSidebar() {
+  var sidebar = document.getElementById('sidebarMenu');
+  sidebar.classList.toggle('show');
+}
+  </script>
 
 </body>
 </html>

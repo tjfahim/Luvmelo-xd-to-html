@@ -28,16 +28,27 @@
 </style>
 <body>
   <header>
+    
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse">
-        <div class="position-sticky">
-          <div class="list-group list-group-flush">
-            <img class="px-3" src="assets/image/temp_logo_luvmelo_co.png" alt="">
+   
+      <div class="position-sticky">
+        
+        <div class="display-flex-center-content">
+          <img class="px-3" src="assets/image/temp_logo_luvmelo_co.png" alt="">
+
+          <button class=" navbar-toggler btn-nav-toggoler-hide-sidebar" type="button" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+    
+      
             <a href="index.html" class="link-text-color-nav" aria-current="true">
               <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <i class="fas fa-tachometer-alt fa-fw me-3 m-1"></i>
                 <div class="m-1">Home</div>
               </div>
             </a>
+      
           
             <a href="#" class=" link-text-color-nav">
               <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
@@ -53,7 +64,7 @@
               </div>
             </a>
           
-            <a href="client_list.html" class="link-text-color-nav">
+            <a href="client_list.html" class="link-text-color-nav ">
               <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <i class="fas fa-chart-line fa-fw me-3 m-1"></i>
                 <div class="m-1">Clients</div>
@@ -86,26 +97,18 @@
       </nav>
       <!-- Sidebar -->
   <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- Container wrapper -->
-            <div class="container-fluid">
-            <!-- Toggle button -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <i class="fas fa-bars"></i>
-            </button>
-        
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+    <!-- Toggle button -->
+    <button class="navbar-toggler btn-nav-toggoler-hide" type="button" onclick="toggleSidebar()">
+      <i class="fas fa-bars"></i>
+    </button>
 
-            </div>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    </div>
             <!-- Collapsible wrapper -->
         
             <!-- Right elements -->
@@ -114,7 +117,7 @@
                 <div class="custom-name-color">Hello! MeloSpeech</div>
             
                 <!-- Avatar -->
-                <div class=" mr-5 ml-3">
+                <div class=" mr-4 ml-3">
                     <img
                     src="assets/image/melo_temp_logo.png"
                     class="rounded-circle"
@@ -136,16 +139,16 @@
     </div>
     <div class="row home-main-section pb-3">
       <div class="col-md-7 home-first-section">
-        <div class="row home-first-sectio-row bgw-br15">
-          <div class="col-md-2">
-            <img src="assets/image/VNU_M472_02.png" class="home-main-section-img" alt="">
+        <div class="row home-first-sectio-row bgw-br15 ">
+          <div class="col-md-2  media-quary-width-20">
+            <img src="assets/image/VNU_M472_02.png" class="home-main-section-img " alt="">
           </div>
-          <div class="col-md-6 py-2">
+          <div class="col-md-6 py-2 media-quary-width-50">
             <div class="custom-name-color">Hello Melospeech!</div>
             <p class="custom-paragraph-color">Tip of the day: You can customize outgoing messages in the messaging menu.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 media-quary-width-30">
             <img src="assets/image/Clip.png" class="home-main-section-img" alt="">
           </div>
         </div>
@@ -161,22 +164,22 @@
         
           <div class="row">
             <div class="col-md-2"></div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section-employee"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 James
               </div>
             </div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section-employee"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 Wiseman
               </div>
             </div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section-employee"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 Telmecula
               </div>
             </div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section-employee"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 90133
               </div>
@@ -185,8 +188,8 @@
 
           </div>
    
-          <div class="col-md-11 mt-3">Employee List (12)</div>
-          <div class="col-md-1  mt-3 dropdown">
+          <div class="col-md-11 mt-3 media-quary-width-88">Employee List (12)</div>
+          <div class="col-md-1  mt-3 dropdown media-quary-width-5">
               <!-- Avatar -->
               <a
                   class="dropdown-toggle d-flex align-items-center hidden-arrow"
@@ -328,6 +331,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+  <script>
+    function toggleSidebar() {
+  var sidebar = document.getElementById('sidebarMenu');
+  sidebar.classList.toggle('show');
+}
+  </script>
 
 </body>
 </html>
