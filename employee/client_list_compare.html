@@ -28,11 +28,20 @@
 </style>
 <body>
   <header>
+  
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse">
+   
       <div class="position-sticky">
-        <div class="list-group list-group-flush">
+        
+        <div class="display-flex-center-content">
           <img class="px-3" src="assets/image/temp_logo_luvmelo_co.png" alt="">
-          <a href="#" class="link-text-color-nav active" aria-current="true">
+
+          <button class=" navbar-toggler btn-nav-toggoler-hide-sidebar" type="button" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+    
+    <a href="#" class="link-text-color-nav active" aria-current="true">
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
               <i class="fas fa-tachometer-alt fa-fw me-3 p-2"></i>
               <div class="p-2">Home</div>
@@ -65,18 +74,18 @@
     </nav>
       <!-- Sidebar -->
   <!-- Navbar -->
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- Container wrapper -->
-            <div class="container-fluid">
-            <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" onclick="toggleSidebar()">
-              <i class="fas fa-bars"></i>
-            </button>
-        
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+    <!-- Toggle button -->
+    <button class="navbar-toggler btn-nav-toggoler-hide" type="button" onclick="toggleSidebar()">
+      <i class="fas fa-bars"></i>
+    </button>
 
-            </div>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    </div>
             <!-- Collapsible wrapper -->
         
             <!-- Right elements -->
@@ -108,16 +117,16 @@
     </div>
     <div class="row home-main-section pb-3">
       <div class="col-md-7 home-first-section">
-        <div class="row home-first-sectio-row bgw-br15">
-          <div class="col-md-2">
-            <img src="assets/image/VNU_M472_02.png" class="home-main-section-img" alt="">
+        <div class="row home-first-sectio-row bgw-br15 ">
+          <div class="col-md-2  media-quary-width-20">
+            <img src="assets/image/VNU_M472_02.png" class="home-main-section-img " alt="">
           </div>
-          <div class="col-md-6 py-2">
+          <div class="col-md-6 py-2 media-quary-width-50">
             <div class="custom-name-color">Hello Melospeech!</div>
             <p class="custom-paragraph-color">Tip of the day: You can customize outgoing messages in the messaging menu.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 media-quary-width-30">
             <img src="assets/image/Clip.png" class="home-main-section-img" alt="">
           </div>
         </div>
@@ -134,24 +143,24 @@
             </div>
           </div>
         
-          <div class="row">
+          <div class="row media-margin-left-1">
             <div class="col-md-2"></div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 James
               </div>
             </div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 Wiseman
               </div>
             </div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 Telmecula
               </div>
             </div>
-            <div class="text-center mt-2 col-md-2">
+            <div class="text-center mt-2 col-md-2 media-quary-width-50">
               <div class="select-section"><img class="mr-2 " src="assets/image/icon/Vector-cross.png" alt="">
                 90133
               </div>
@@ -160,8 +169,8 @@
 
           </div>
    
-          <div class="col-md-11 mt-3">Client List (122)</div>
-          <div class="col-md-1 mt-3 dropdown">
+          <div class="col-md-11 media-quary-width-90 mt-3">Client List (122)</div>
+          <div class="col-md-1 media-quary-width-5 mt-3 dropdown">
               <!-- Avatar -->
               <a
                   class="dropdown-toggle d-flex align-items-center hidden-arrow"
@@ -199,10 +208,10 @@
           </div>
           <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -212,12 +221,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -227,12 +236,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -242,12 +251,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -257,12 +266,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -272,12 +281,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -287,12 +296,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -302,12 +311,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -317,12 +326,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+         <div class="col-md-4">
             <div class="row mt-4 bgw-br15 client-card-custom">
-              <div class="col-md-4 p-2">
+              <div class="col-md-4 media-quary-width-30 p-2">
                 <img src="assets/image/Mask2.png" class="section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 media-quary-width-60 p-2 ">
                 <small class="">H. Fallinsto</small>
                 <div class="custom-paragraph-color display-6 f11">Speech Pathology</div>
                 <div class="">
@@ -337,19 +346,19 @@
        
   
       </div>
-      <div class="col-md-3 p-4 m-3 client-compare-window">
+      <div class="col-md-3 p-4 m-3 client-compare-window media-quary-width-97">
         <div class="text-center text-white h5">Compare Window</div>
         <div class="row bgw-br15 client-right-card-custom  mt-4 ">
           <div class="col-md-12">
             <div class="row">
-              <div class="col-md-3 ml-2 mt-2">
+              <div class="col-md-3 ml-2 mt-2 media-quary-width-30">
                 <img src="assets/image/Logo.png" class="right-section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 p-2 media-quary-width-60 ">
                 <div class="row">
-                  <div class="col-md-10"><small class="">H. Fallinsto</small>
+                  <div class="col-md-10 media-quary-width-80"><small class="">H. Fallinsto</small>
                   </div>
-                  <div class="col-md-1"><img src="assets/image/icon/Component_icon_ic_Ch.png" alt=""></div>
+                  <div class="col-md-1 media-quary-width-10"><img src="assets/image/icon/Component_icon_ic_Ch.png" alt=""></div>
                 </div>
                 <div class="">
                   <img src="assets/image/icon/ic_More Copy.png" class="right-section-2-icon" alt="">
@@ -361,10 +370,10 @@
               </div>
             </div>
             <div class="row client-right-section-div mt-3 ml-1">
-                <div class="col-md-1">
+                <div class="col-md-1 media-quary-width-5 media-margin-top-1">
                   <img src="assets/image/icon/ic_More Copy 2.png" class="right-section-2-icon" alt="">
                 </div>
-                <div class="col-md-10"> <p class="custom-paragraph-color f10 client-link-text p-1 " >https://google.maps/address/12345</p>
+                <div class="col-md-10 media-quary-width-90"> <p class="custom-paragraph-color f10 client-link-text p-1 " >https://google.maps/address/12345</p>
                 </div>
             </div>
           </div>
@@ -373,14 +382,14 @@
         <div class="row bgw-br15 client-right-card-custom  mt-4 ">
           <div class="col-md-12">
             <div class="row">
-              <div class="col-md-3 ml-2 mt-2">
+              <div class="col-md-3 ml-2 mt-2 media-quary-width-30">
                 <img src="assets/image/Logo.png" class="right-section-1-img" alt="">
               </div>
-              <div class="col-md-7 p-2 ">
+              <div class="col-md-7 p-2 media-quary-width-60 ">
                 <div class="row">
-                  <div class="col-md-10"><small class="">H. Fallinsto</small>
+                  <div class="col-md-10 media-quary-width-80"><small class="">H. Fallinsto</small>
                   </div>
-                  <div class="col-md-1"><img src="assets/image/icon/Component_icon_ic_Ch.png" alt=""></div>
+                  <div class="col-md-1 media-quary-width-10"><img src="assets/image/icon/Component_icon_ic_Ch.png" alt=""></div>
                 </div>
                 <div class="">
                   <img src="assets/image/icon/ic_More Copy.png" class="right-section-2-icon" alt="">
@@ -392,14 +401,15 @@
               </div>
             </div>
             <div class="row client-right-section-div mt-3 ml-1">
-                <div class="col-md-1">
+                <div class="col-md-1 media-quary-width-5 media-margin-top-1">
                   <img src="assets/image/icon/ic_More Copy 2.png" class="right-section-2-icon" alt="">
                 </div>
-                <div class="col-md-10"> <p class="custom-paragraph-color f10 client-link-text p-1 " >https://google.maps/address/12345</p>
+                <div class="col-md-10 media-quary-width-90"> <p class="custom-paragraph-color f10 client-link-text p-1 " >https://google.maps/address/12345</p>
                 </div>
             </div>
           </div>
         </div>
+      
       
 
         <div class="client-right-buttom-btn text-center mt-4">
@@ -439,5 +449,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
 
+  <script>
+    function toggleSidebar() {
+  var sidebar = document.getElementById('sidebarMenu');
+  sidebar.classList.toggle('show');
+}
+  </script>
 </body>
 </html>

@@ -969,6 +969,9 @@ float: right;
   .media-quary-width-20{
     width: 20%;
   }
+  .media-quary-width-25{
+    width: 25%;
+  }
   .media-quary-width-30{
     width: 30%;
   }
@@ -998,6 +1001,9 @@ float: right;
   }
   .media-quary-width-97{
     width: 97%;
+  }
+  .media-quary-width-100{
+    width: 100%;
   }
 
 /************************************* SideBar ****************************************/
@@ -1137,14 +1143,58 @@ float: right;
     margin-left: 10px;
   }
 
-  /************************************* Index Page ****************************************/
+  /************************************* Employee View Page ****************************************/
 
 
+  .col-custom-14{
+    width: 45%;
+    margin-left: 2%;
+  }
 
-  /************************************* Index Page ****************************************/
+  .employee-details-input-small .border-line-employee {
+    padding: 5%;
+      height: 0;
+      margin-top: -11%;
+  }
 
+  .request-button-employee-view-update {
+  
+    width: 95%;
+  }
+  .request-button-employee-view-update-right button {
+    margin-left:0;
+  
+  }
+
+
+  .empoyee-view-drop-drag-section{
+    height: 130px;
+  }
+  
+  
   
 
+  /************************************* Messaging Page ****************************************/
+
+  .select-section-messaging {
+    background-color: #ffffff00;
+    color:  #BCBCBC;
+    padding: 6px 8px;
+    border: 1px solid #BCBCBC;
+    border-radius: 40px;
+    width: 120px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 10px;
+  }
+
+
+  .messaging-card-section-overflow{
+    width: 90%;
+    margin-left: 7%;
+  }
 
 }
 
