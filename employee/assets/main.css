@@ -9,6 +9,10 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
+::-webkit-scrollbar {
+  height: 7px;
+}
+
 
 /* Track */
 ::-webkit-scrollbar-track {
@@ -847,6 +851,7 @@ margin-left: 8px;
   border-radius: 10px;
   height: 95%;
   margin-top: 7%;
+
 }
 
 
@@ -1210,12 +1215,28 @@ float: right;
     margin-top: -1%;
 
   }
+  .media-margin-top-10{
+    margin-top: 10%;
+
+  }
   .media-margin-left-4{
     margin-left: 4%;
 
   }
   .media-margin-left-1{
     margin-left: 1%;
+
+  }
+  .media-margin-left-12{
+    margin-left: 12%;
+
+  }
+  .media-margin-left-7{
+    margin-left: 7%;
+
+  }
+  .media-margin-left-15{
+    margin-left: 15%;
 
   }
 
@@ -1335,10 +1356,23 @@ float: right;
 
   /************************************* Client List Compare Page ****************************************/
 
+  .employee-dashboard-card-section-overflow{
+    width: 100%;
+    margin-left: 13%;
+  }
 
 
+  .employee-dashboard-compare-window-expand{
+ 
+    height: 31%;
+  
+  }
 
-
+  .employee-dashboard-compare-window{
+ 
+    height: 21%;
+  
+  }
 
   
 }

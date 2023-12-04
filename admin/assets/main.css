@@ -940,17 +940,22 @@ float: right;
     align-items: center;
     justify-content: center;
   }
+  .list-group-horizontal{
+    flex-direction: column; 
+  }
+
+
   .media-margin-top-1{
     margin-top: -1%;
-
   }
   .media-margin-left-4{
     margin-left: 4%;
-
+  }
+  .media-margin-left-5{
+    margin-left: 5%;
   }
   .media-margin-left-1{
     margin-left: 1%;
-
   }
 
   .btn-nav-toggoler-hide{
@@ -1195,6 +1200,15 @@ float: right;
     width: 90%;
     margin-left: 7%;
   }
+    
+  #calendar-main-div {
+    margin-left: 4%;
+  }
+  .calendar-middle-yellow-line-vertical{
+    display: none;
+  }
 
 }
+
+
 
